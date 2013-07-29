@@ -19,4 +19,4 @@ Face it! You could not build PHP on Mavericks via homebrew smoothly now. But I c
 
 ## Warning
 
-I built this PHP bin for CGI only!
+This branch is for FPM only!
