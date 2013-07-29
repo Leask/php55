@@ -468,7 +468,7 @@
 #define HAVE_BUILD_DEFS_H 1
 
 /* Define to 1 if gcc supports __sync_bool_compare_and_swap() a.o. */
-/* #undef HAVE_BUILTIN_ATOMIC */
+#define HAVE_BUILTIN_ATOMIC 1
 
 /* */
 #define HAVE_BUNDLED_PCRE 1
@@ -507,7 +507,7 @@
 /* #undef HAVE_CLOCK_GETTIME */
 
 /* do we have clock_get_time? */
-/* #undef HAVE_CLOCK_GET_TIME */
+#define HAVE_CLOCK_GET_TIME 1
 
 /* Whether you have struct cmsghdr */
 #define HAVE_CMSGHDR 1
@@ -943,7 +943,7 @@
 #define HAVE_KILL 1
 
 /* do we have kqueue? */
-/* #undef HAVE_KQUEUE */
+#define HAVE_KQUEUE 1
 
 /* Define to 1 if you have the <langinfo.h> header file. */
 #define HAVE_LANGINFO_H 1
@@ -1072,7 +1072,7 @@
 #define HAVE_LRAND48 1
 
 /* do we have mach_vm_read? */
-/* #undef HAVE_MACH_VM_READ */
+#define HAVE_MACH_VM_READ 1
 
 /* Define to 1 if you have the `makedev' function. */
 /* #undef HAVE_MAKEDEV */
@@ -1446,7 +1446,7 @@
 #define HAVE_SCANDIR 1
 
 /* do we have select? */
-/* #undef HAVE_SELECT */
+#define HAVE_SELECT 1
 
 /* */
 #define HAVE_SEMUN 1
@@ -1629,7 +1629,7 @@
 #define HAVE_STDINT_H 1
 
 /* Define to 1 if you have the <stdio.h> header file. */
-/* #undef HAVE_STDIO_H */
+#define HAVE_STDIO_H 1
 
 /* Define to 1 if you have the <stdlib.h> header file. */
 #define HAVE_STDLIB_H 1
@@ -1749,7 +1749,7 @@
 #define HAVE_SYNC_FETCH_AND_ADD 1
 
 /* do we have sysconf? */
-/* #undef HAVE_SYSCONF */
+#define HAVE_SYSCONF 1
 
 /* Define to 1 if you have the <sysexits.h> header file. */
 #define HAVE_SYSEXITS_H 1
@@ -1847,7 +1847,7 @@
 #define HAVE_SYS_TYPES_H 1
 
 /* Define to 1 if you have the <sys/uio.h> header file. */
-/* #undef HAVE_SYS_UIO_H */
+#define HAVE_SYS_UIO_H 1
 
 /* Define to 1 if you have the <sys/un.h> header file. */
 #define HAVE_SYS_UN_H 1
@@ -1877,7 +1877,7 @@
 /* #undef HAVE_TIDYOPTGETDOC */
 
 /* do we have times? */
-/* #undef HAVE_TIMES */
+#define HAVE_TIMES 1
 
 /* Define to 1 if you have the <time.h> header file. */
 #define HAVE_TIME_H 1
@@ -2116,13 +2116,13 @@
 #define PHP_EXT_DES_CRYPT 1
 
 /* fpm group name */
-/* #undef PHP_FPM_GROUP */
+#define PHP_FPM_GROUP "_www"
 
 /* fpm systemd service type */
-/* #undef PHP_FPM_SYSTEMD */
+#define PHP_FPM_SYSTEMD "simple"
 
 /* fpm user name */
-/* #undef PHP_FPM_USER */
+#define PHP_FPM_USER "_www"
 
 /* Whether you have HP-UX 10.x */
 /* #undef PHP_HPUX_TIME_R */
